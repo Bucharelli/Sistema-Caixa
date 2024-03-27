@@ -1,0 +1,54 @@
+html {
+    background-image: url("../img produtos/parede.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center;
+}
+
+.titulo-ps5{
+    background-color: rgb(245, 220, 245);
+    border: 2px solid black;
+    position: relative;
+    width: 1800px;
+    height: 200px;
+    top: 12px;
+    left: 20px;
+}
+
+.descriçãoPS5{
+    background-color: rgb(245, 220, 245);
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+    right: -30px;
+    height: 160px;
+    width: 1435px;
+    top: 12px;
+}
+
+.div-descrição{
+    position: relative;
+    right: 10px;
+    width: 123px;
+}
+
+.fundo{
+    background-color: rgb(170, 167, 167);
+    border: 2px solid rgba(0, 0, 0, 0.218);
+    height:230px;
+    width: 990px;
+    position: absolute;
+    left: 25%;
+    display: flex;
+}
+
+.titulo{
+    background-color: brown;
+    height: 37px;
+    width: 1000px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    left: 475px;
+    margin: 40px;
+}

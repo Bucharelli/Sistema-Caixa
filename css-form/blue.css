@@ -1,0 +1,102 @@
+body{
+    background-color:rgb(173, 173, 173)     
+} 
+
+h1{
+    background-color: rgb(0, 128, 17);
+    text-align: center;
+    background-color: brown;
+    border-radius: 20px;
+    font-size: 40px;    
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    bottom: 30px;
+}
+
+h3{
+    background-color:firebrick;
+    font-size:40px;
+    margin: 20px;
+}
+
+hr{
+    height: 8px;
+    width: 1260px;
+    background-color: rgb(92, 92, 92);
+    border-collapse: 12px;
+    border-color: rgb(175, 175, 175);   
+}
+
+img{
+    border: 1.5px solid black;
+    width: 49%;
+}
+
+form{
+    font-size: 25px;   
+}
+
+.inferior{
+    background-color: gray;
+    padding: 10px;
+}
+
+.seita-barra{
+    background-color:black;
+    height: 4px;
+    width: 175px;
+    border-radius: 120px;
+}
+
+.plano-fundo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 40px;
+    align-items:start;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 570px;
+    width: 1100px;
+    border: 4px solid rgb(100, 72, 72);
+}
+
+.layout{
+    background: rgb(173, 173, 173);
+    position: absolute;
+    left: 120px;
+    width: 600px;
+    border: 2px transparent black;
+    text-align: center;
+}
+
+.envio{
+    background-color: rgb(0, 255, 64);
+    font-size:25px;
+    padding: 2px;
+    box-shadow: 2px 2px black;
+    cursor:pointer;
+}
+
+.limpador{
+    font-size: 27px;
+    background-color: cadetblue;
+    box-shadow:2px 2px black; 
+}
+
+.canto{
+    flex: 1;
+    height: 447px;
+    width: 237px;
+    background-color: rgb(173, 173, 173);
+}
+
+
+
+

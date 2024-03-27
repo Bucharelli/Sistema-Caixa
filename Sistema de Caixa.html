@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário PHP</title>
+    <link rel="stylesheet" href="css-form/blue.css">
+</head>
+
+<body>
+    
+    <h1>(----------------------------------------{Formulário}----------------------------------------)</h1>
+    <hr>
+    
+    <div class="plano-fundo">
+            
+            <form action="php-sistema.php" method="post">
+                
+                <h3>Cadastro do Cliente</h3>
+                
+                <fieldset>    
+                    <label>Seu Nome:</label>
+                    <input required name="Nome" type="text" placeholder="Digite seu nome" maxlength="50">
+                    
+                    <br><br>
+                    
+                    <label for="Primeiro-produto">Primeiro Produto:</label>
+                    <input required name="Primeiro-produto" type="text" placeholder="Digite o nome do 1º produto">
+                    
+                    <br><br>
+                    
+                    <label for="Valor1">Valor do 1º produto:</label>
+                    <input required name="Valor1" type="number" placeholder="Digite o valor do 1º produto">
+                    
+                    <br><br>
+                    
+                    <label for="Segundo-produto">Segundo Produto:</label>
+                    <input required name="Segundo-produto" type="text" placeholder="Digite o nome do 2º produto">
+                    
+                    <br><br>
+                    
+                    <label for="Valor2">Valor do 2º produto:</label>
+                    <input required name="valor2" type="number" placeholder="Digite o valor do 2º produto" min="0">   
+                    
+                    <br><br>
+                    
+                    <label for="valorpago"> Valor pago pelo cliente.</label>
+                    <input required name="valorpago" type="text" placeholder="Digite o valor total do pagamento">
+                    
+                    <br><br><br><br>
+                    
+                </fieldset>  
+                
+                <fieldset class="inferior">
+                    <input class="envio" value="Enviar" type="submit">
+                    <input class="limpador" type="reset" value="Limpar">
+                </fieldset>    
+                
+            </form>
+            
+            <div class="canto">
+                
+                <h3>ESCOLHA</h3>
+                
+                <img src="img/maçonaria.jpg">
+                <img src="img/Maçonaria-Simbolo.png">
+                
+                <hr class="seita-barra">
+                
+                <div class="algo">
+                    
+                </div>
+                
+                
+            </div>
+        
+    </div>
+</body>
+</html>
